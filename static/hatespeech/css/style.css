@@ -37,7 +37,7 @@
 /*  01. Template default CSS
 /*----------------------------------------*/
 /*-- Google Font --*/
-@import url("https://fonts.googleapis.com/css2?family=Vidaloka&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /*-- Common Style --*/
 *,
@@ -54,7 +54,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-sans-serif;
   font-size: 14px;
   color: #8a8a8a;
   line-height: 2;
@@ -92,7 +92,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   color: #232324;
@@ -511,7 +511,7 @@ img {
   color: #ffffff;
   font-weight: 500;
   margin-bottom: 0;
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   margin-top: -5px;
 }
 
@@ -2329,7 +2329,7 @@ img {
   font-size: 80px;
   font-weight: 400;
   line-height: 90px;
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   text-transform: inherit;
   letter-spacing: 1px;
@@ -2656,7 +2656,7 @@ img {
 .single-analysis .analysis-number span {
   font-size: 24px;
   font-weight: 400;
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   background: #a295df;
   height: 70px;
@@ -2705,7 +2705,7 @@ img {
 }
 
 .single-testimonial-wrapper .testimonial-content p {
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: #ffffff;
   line-height: 1.6;
@@ -2870,7 +2870,7 @@ img {
 }
 
 .video-banner-wrapper .video-banner-content p {
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   color: #ffffff;
   line-height: 1.33;
@@ -3206,7 +3206,7 @@ img {
 }
 
 .newsletter-wrapper .newsletter-content p {
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   color: #ffffff;
   line-height: 1.33;
@@ -3373,7 +3373,7 @@ img {
   font-size: 20px;
   color: #232324;
   width: 100%;
-  font-family: "Vidaloka", serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 15px 20px;

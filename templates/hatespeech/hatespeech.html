@@ -1,0 +1,105 @@
+{% extends 'hatespeech/base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- Breadcrumb Section Start -->
+    <div class="section breadcrumb-section overlay" data-bg-image="{% static 'hatespeech/images/breadcrumb/portfolio.jpg' %}">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Breadcrumb wrapper Start -->
+                    <div class="breadcrumb-wrapper">
+                        <h1 class="title text-white" data-aos="fade-up" data-aos-duration="1100">CSIS Hate Speech Dashboard</h1>
+
+                        <!--ul class="breadcrumb-menu" data-aos="fade-up" data-aos-duration="1500">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <span>Service Details</span>
+                            </li>
+                        </ul-->
+                    </div>
+                    <!-- Breadcrumb wrapper End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb Section End -->
+
+    <!-- Service Section Start -->
+    <div class="section section-margin">
+        <div class="container">
+            <div class="row m-b-n30 align-items-center">
+                <div class="col-lg-12 order-first order-lg-last m-b-30" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="model-box">
+                        <iframe class="dashboard" src="https://app.powerbi.com/view?r=eyJrIjoiZTEyZDMzYWItYjE5NC00ZmU1LTliNTMtMDJlOTEwNTk1M2NkIiwidCI6ImRiNmU3ODA5LWJlNjQtNGUwZS1hYzg3LWEwMGI3MTZhOWFiMiIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+                        <!--img src="{% static 'hatespeech/images/service/1.png' %}" alt="About Image"-->
+                    </div>
+                </div>
+                <div class="col-lg-12 m-b-30" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="service-content about-content mw-100">
+                        <h2 class="title">Dashboard <br> Hate Speech</h2>
+                        <span></span>
+                        <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main Problems some of the main need more imporvement to solve the business policy</p>
+                        <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main Problems some of the main need more imporvement to solve the business policy qui dolorem simple ipsum quia dolor sit amet, consectetur some of the main Problems some of the main need more imporvement to solve the business policy</p>
+                        </div>
+                </div>
+            </div>
+            <div class="row section-padding m-b-n30 align-items-center">
+                <div class="col-lg-6 m-b-30" data-aos="fade-up" data-aos-duration="1100">
+                    <div class="service-content about-content mw-100">
+                        <h4 class="title m-b-30">Dashboard Hate Speech</h4>
+                        <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main some of themain need more imporvement to solve the business policy qui dolorem simple ipsum quia dolor sit amet, consectetur some of the main Problems some of themain need more imporvement to solve </p>
+                        <p>Voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur mag ni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisq uam est, qui dolorem ipsum quia dolor sit amet, consectetur some of the main some of themain need more imporvement to solve the business policy qui dolorem simple ipsum quia dolor sit amet, consectetur some of the main Problems some of themain need more imporvement to solve </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 order-first m-b-30" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="service-image-left">
+                        <img src="{% static 'hatespeech/images/service/2.png' %}" alt="About Image">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Service Section End -->
+
+    <!-- Newsletter Section Start -->
+    <div class="section section-padding overlay" data-bg-image="{% static 'hatespeech/images/banner/video-banner.jpg' %}" data-aos="fade-up" data-aos-duration="1100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+
+                    <!-- Newsletter wrapper Start -->
+                    <div class="newsletter-wrapper">
+                        <div class="newsletter-content">
+                            <p>Subscribe our <span class="text-color-primary">Newsletter</span> and <br> get update news and offers</p>
+                        </div>
+                        <!-- Newsletter Form Start -->
+                        <div class="newsletter-form-wrap p-t-40">
+                            <form id="mc-form" class="mc-form">
+                                <input type="email" id="mc-email" class="form-control email-box" placeholder="Enter your email here.." name="EMAIL">
+                                <button id="mc-submit" class="newsletter-btn" type="submit">Subscribe</button>
+                            </form>
+                            <!-- mailchimp-alerts Start -->
+                            <div class="mailchimp-alerts text-centre">
+                                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                                <div class="mailchimp-success text-success"></div><!-- mailchimp-success end -->
+                                <div class="mailchimp-error text-danger"></div><!-- mailchimp-error end -->
+                            </div>
+                            <!-- mailchimp-alerts end -->
+                        </div>
+                        <!-- Newsletter Form End -->
+                    </div>
+                    <!-- Newsletter wrapper End -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter Section End -->
+
+{% endblock %}
