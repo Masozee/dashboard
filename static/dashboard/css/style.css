@@ -64,8 +64,8 @@ a {
 }
 
 .section-lg {
-  padding-bottom: 110px;
-  padding-top: 110px;
+  padding-bottom: 55px;
+  padding-top: 55px;
   position: relative;
 }
 
@@ -1063,7 +1063,7 @@ hr {
 }
 
 .navbar-custom.nav-sticky {
-  background-color: #223b40;
+  background-color: #005354;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
   padding: 20px 0px;
 }
@@ -1675,7 +1675,7 @@ textarea.form-control {
 }
 
 .bg-footer {
-  background: #132527;
+  background: #005354;
   padding-top: 100px;
   padding-bottom: 70px;
 }
@@ -1824,7 +1824,7 @@ background: linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
 }
 @media (min-width: 200px) and (max-width: 768px) {
   .navbar-custom {
-    background-color: #223b40;
+    background-color: #005354;
     padding: 10px 0px !important;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
   }
