@@ -70,7 +70,7 @@ a {
 }
 
 .title-border {
-  border-bottom: 1px solid #388c7c;
+  border-bottom: 1px solid #E8A117;
 }
 
 .sub-title {
@@ -86,7 +86,7 @@ a {
   display: inline-block;
   width: 50px;
   height: 2px;
-  background: #388c7c;
+  background: #E8A117;
   position: relative;
   z-index: 1;
   right: 10px;
@@ -99,7 +99,7 @@ a {
   content: "";
   height: 2px;
   width: 10px;
-  background: #388c7c;
+  background: #E8A117;
 }
 
 .title-border.two {
@@ -1363,14 +1363,14 @@ hr {
 }
 
 .bg-video {
-  background-image: url(../images/img-2.jpg);
+  background-color: #1E201F;
   background-size: cover;
   background-position: center center;
   position: relative;
 }
 
 .bg-cta {
-  background-image: url(../images/img-3.jpg);
+  background-color: #1E201F;
   background-size: cover;
   background-position: center center;
   position: relative;
