@@ -159,7 +159,7 @@ a {
 .btn-primary:focus,
 .btn-primary:hover,
 .open > .dropdown-toggle.btn-primary {
-  color: #008080 !important;
+  background-color: #008080 !important;
 }
 
 .btn-outline-custom {

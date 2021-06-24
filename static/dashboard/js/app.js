@@ -25,7 +25,7 @@ window.addEventListener('scroll', (ev) => {
 
 // Smooth scroll 
 var scroll = new SmoothScroll('#navbar-navlist a', {
-    speed: 300,
+    speed: 100,
     offset: 60
 });
 
