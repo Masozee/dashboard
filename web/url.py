@@ -3,8 +3,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='dashboard/index.html'), name='home'),
-    path('hatespeech/', TemplateView.as_view(template_name='dashboard/index2.html'), name='hatespeech'),
-    path('hatespeech/2', TemplateView.as_view(template_name='dashboard/dashboard.html'), name='hatespeech'),
+    path('hatespeech/', TemplateView.as_view(template_name='dashboard/dashboard.html'), name='hatespeech'),
    # path('hatespeech/syiah/', TemplateView.as_view(template_name='hatespeech/hatespeech.html'), name='syiah'),
     #path('hatespeech/cina/', TemplateView.as_view(template_name='hatespeech/hatespeech.html'), name='cina'),
     #path('hatespeech/ahmadiyah/', TemplateView.as_view(template_name='hatespeech/hatespeech.html'), name='ahmadiyah'),
