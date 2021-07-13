@@ -24,4 +24,5 @@ def indexHatespeech(request):
         from: {}   
         '''.format(data['comments'], data['email'])
         send_mail(data['subject'], comments, '', ['dev@csis.or.id'])
-        return render(request, 'dashboard/dashboard.html', {})
+        return HttpResponse('Terima kasih')
+    return render(request, 'dashboard/dashboard.html', {})
